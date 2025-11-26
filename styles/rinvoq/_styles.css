@@ -3,6 +3,6 @@
 
 /* rinvoq specific style goes here */
 body {
-    background-color: var(--color-grey-dark3);
-    color: var(--color-white);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }
