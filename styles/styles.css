@@ -37,14 +37,6 @@ sub {
   line-height: 0;
 }
 
-pre {
-  padding: var(--toro-space-sm);
-  border-radius: var(--toro-radius-md);
-  background-color: var(--toro-system-neutral-1);
-  overflow-x: auto;
-  white-space: pre;
-}
-
 input,
 textarea,
 select,
@@ -182,6 +174,25 @@ textarea,
 select,
 button {
   font: inherit;
+}
+
+p {
+    font-size: 1.6rem;
+    line-height: 2rem
+}
+
+@media(width >= 744px) {
+  p {
+      font-size:1.6rem;
+      line-height: 2.2rem
+  }
+}
+
+@media(width >= 1024px) {
+  p {
+      font-size:1.8rem;
+      line-height: 2.4rem
+  }
 }
 
 /* ----------links---------- */

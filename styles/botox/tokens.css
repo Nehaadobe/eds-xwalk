@@ -11,25 +11,83 @@
  */
 
 :root {
-    --font-size-base: 1rem;
-    --line-height-base: 1.5;
-    --black: #000;
-    --white: #fff;
-    --purple: #7d4199;
-    --purple-light: #753e95;
-    --purple-dark: #210d3f;
-    --orange: #f8981e;
-    --red: #b30838;
-    --dark: #202020;
-    --dark-black: #21272a;
-    --gray: #727272;
-    --gray-dark: #ccc;
-    --gray-medium: #a1a1a1;
-    --gray-light: #f8f8f8;
-    --gray-whisper: #eee;
-    --ocean-gray: #cbc9c9;
-    --error: #d33f33;
-    --info: #f2b256;
-    --success: #4b7244;
-    --purple-faded: #e5d9eb;
+  /* Colors */
+  --background-color: #7d4199;
+  --surface-color: #f1f3ff;
+  --light-color: #f8f8f8;
+  --text-color: #fff; /* primary dark/nav text */
+  --muted-color: #666b7a;
+  --border-color: #b9b4b4;
+
+  /* Brand blues */
+  --primary-color: #0066f5; /* links / primary CTAs */
+  --primary-strong: #479ff8; /* alternate / dark-theme accent */
+  --primary-muted: #a6b5e0;
+
+  /* Alerts */
+  --error-color: #cf451c;
+  --warning-color: #f2dede;
+  --success-color: #2f9ece;
+
+  /* Link colors */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--text-color);
+
+  /* Fonts */
+  --body-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --heading-font-family: 'F37 Lineca', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --icon-font-family: 'abbvie-icon';
+
+  /* Body sizes (match abbvie breakpoints) */
+  --body-font-size-m: 1.8rem;
+  --body-font-size-s: 1.6rem;
+  --body-font-size-xs: 1.4rem;
+
+  /* Heading sizes */
+  --heading-font-size-xxl: 6.4rem;
+  --heading-font-size-xl: 5.6rem;
+  --heading-font-size-l: 4.8rem;
+  --heading-font-size-m: 4rem;
+  --heading-font-size-s: 3.2rem;
+  --heading-font-size-xs: 2.4rem;
+
+  /* nav height (approx) */
+  --nav-height: 72px;
+
+  /* Spacing Tokens */
+  --space-token-xxs: 8px;
+  --space-token-xs: 16px;
+  --space-token-s: 24px;
+  --space-token-m: 32px;
+  --space-token-l: 40px;
+  --space-token-xl: 56px;
+  --space-token-xxl: 80px;
+  --space-token-xxxl: 104px;
+
+  /* Separator Height */
+  --separator-height-1: .1rem;
+  --separator-height-8: .8rem;
+  --separator-height-16: 1.6rem;
+  --separator-height-24: 2.4rem;
+  --separator-height-32: 3.2rem;
+  --separator-height-48: 4.8rem;
+  --separator-height-64: 6.4rem;
+  --separator-height-80: 8rem;
+  --separator-height-96: 9.6rem;
+  --separator-height-112: 11.2rem;
+  --separator-height-128: 12.8rem;
+  --separator-height-144: 14.4rem;
+
+  /* text transform */
+  --font-uppercase: uppercase;
+  --font-lowercase: lowercase;
+  --font-normal: normal;
+
+  /* Media Query */
+  --bp-mobile-max: 743px;
+  --bp-tablet-min: 744px;
+  --bp-tablet-max: 1023px;
+  --bp-desktop-min: 1024px;
+  --bp-large-desktop-min: 1440px;
+
 }
