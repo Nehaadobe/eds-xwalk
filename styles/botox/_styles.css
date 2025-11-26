@@ -1,0 +1,9 @@
+
+@import '../styles.css';
+
+/* botox specific style goes here */
+
+body {
+    background-color: var(--purple);
+    color: var(--white);
+}

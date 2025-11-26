@@ -1,0 +1,8 @@
+
+@import '../styles.css';
+
+/* rinvoq specific style goes here */
+body {
+    background-color: var(--color-grey-dark3);
+    color: var(--color-white);
+}

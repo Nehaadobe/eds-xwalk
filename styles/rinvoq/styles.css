@@ -1,5 +1,3 @@
-/* stylelint-disable no-duplicate-selectors */
-
 /*
  * Copyright 2020 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -12,69 +10,26 @@
  * governing permissions and limitations under the License.
  */
 
-/* ----------Reset and base styles---------- */
-p,
-dl,
-ol,
-ul,
-pre,
-blockquote {
-  margin: 0;
-  padding: 0;
-}
+/* fallback fonts */
 
-ol li,
-ul li {
-  margin: 0;
-  padding: 0;
-}
-
-code,
-pre,
-sup,
-sub {
-  font-size: 0.6em;
-  line-height: 0;
-}
-
-pre {
-  padding: var(--toro-space-sm);
-  border-radius: var(--toro-radius-md);
-  background-color: var(--toro-system-neutral-1);
-  overflow-x: auto;
-  white-space: pre;
-}
-
-input,
-textarea,
-select,
-button {
-  font: inherit;
-}
-
-/* ----------fallback font---------- */
 @font-face {
-  font-family: roboto-fallback;
-  size-adjust: 100.06%;
-  ascent-override: 95%;
+  font-family: roboto-condensed-fallback;
+  size-adjust: 88.82%;
   src: local('Arial');
 }
 
-/* ----------main CSS styles---------- */
-
-html {
-  -webkit-font-smoothing: antialiased;
+@font-face {
+  font-family: roboto-fallback;
+  size-adjust: 99.529%;
+  src: local('Arial');
 }
 
 body {
   display: none;
   margin: 0;
-}
-
-body,html {
-    font-family: var(--body-font-family);
-    font-size: 62.5%;
-    line-height: 1.5;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size-m);
+  line-height: 1.6;
 }
 
 body.appear {
@@ -144,10 +99,15 @@ h6 {
 }
 
 h1 { font-size: var(--heading-font-size-xxl); }
+
 h2 { font-size: var(--heading-font-size-xl); }
+
 h3 { font-size: var(--heading-font-size-l); }
+
 h4 { font-size: var(--heading-font-size-m); }
+
 h5 { font-size: var(--heading-font-size-s); }
+
 h6 { font-size: var(--heading-font-size-xs); }
 
 p,
@@ -184,7 +144,8 @@ button {
   font: inherit;
 }
 
-/* ----------links---------- */
+/* links */
+
 a:any-link {
   color: var(--link-color);
   text-decoration: none;
@@ -195,7 +156,8 @@ a:hover {
   color: var(--link-hover-color);
 }
 
-/* ----------buttons---------- */
+/* buttons */
+
 a.button:any-link,
 button {
   box-sizing: border-box;
@@ -257,7 +219,8 @@ main img {
   width: 100%;
 }
 
-/* ----------sections---------- */
+/* sections */
+
 main > .section {
   margin: 40px 0;
 }
@@ -278,7 +241,8 @@ main > .section:first-of-type {
   }
 }
 
-/* ----------section metadata---------- */
+/* section metadata */
+
 main .section.light,
 main .section.highlight {
   background-color: var(--light-color);
@@ -286,68 +250,9 @@ main .section.highlight {
   padding: 40px 0;
 }
 
-/* --------Utilities---------- */
+/* rinvoq specific style goes here */
 
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
-}
-
-.sr-only-focusable:active,
-.sr-only-focusable:focus {
-  position: static;
-  width: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  clip: auto;
-}
-
-.center {
-  text-align: center;
-}
-
-.right {
-  text-align: right;
-}
-
-.left {
-  text-align: left;
-  justify-content: left;
-}
-
-.center .button-container {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.hide {
-  display: none;
-}
-
-.desktop-only {
-  display: none;
-}
-
-@media (width >= 1024px) {
-  .desktop-only {
-    display: inherit;
-  }
-}
-
-.mobile-only {
-  display: inherit;
-}
-
-@media (width >= 1024px) {
-  .mobile-only {
-    display: none;
-  }
+body {
+    background-color: var(--color-grey-dark3);
+    color: var(--color-white);
 }

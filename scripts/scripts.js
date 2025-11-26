@@ -1,16 +1,18 @@
 import {
-  loadHeader,
-  loadFooter,
   decorateButtons,
   decorateIcons,
   decorateSections,
   decorateBlocks,
   decorateTemplateAndTheme,
   waitForFirstImage,
-  loadSection,
-  loadSections,
   loadCSS,
 } from './aem.js';
+import {
+  loadSection,
+  loadHeader,
+  loadFooter,
+  loadSections,
+} from './multi-theme.js';
 
 /**
  * Moves all the attributes from a given elmenet to another given element.

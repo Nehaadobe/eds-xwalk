@@ -1,0 +1,7 @@
+@import '../cards.css';
+
+/* Brand-specific overrides for cards block */
+
+.cards > ul > li {
+  background-color: #202020;
+}

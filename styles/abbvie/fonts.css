@@ -1,0 +1,39 @@
+/* abbvie specific fonts (sourced from abbvie clientlibs) */
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	font-weight: 400;
+	src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/resources/custom-fonts/Roboto/fonts/Roboto-Regular.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'Roboto';
+	font-display: swap;
+	font-weight: 700;
+	src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/resources/custom-fonts/Roboto/fonts/Roboto-Bold.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'F37 Lineca';
+	font-display: swap;
+	font-weight: 650;
+	src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/css/custom-fonts/F37Lineca/fonts/F37Lineca-Book.woff2') format('woff2');
+}
+
+@font-face {
+	font-family: 'F37 Lineca';
+	font-display: swap;
+	font-weight: 800;
+	src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/css/custom-fonts/F37Lineca/fonts/F37Lineca-Medium.woff2') format('woff2');
+}
+
+/* abbvie icon font */
+@font-face {
+	font-family: 'abbvie-icon';
+	font-display: swap;
+	font-weight: 400;
+	src: url('https://www.abbvie.com/etc.clientlibs/abbvie-com2/clientlibs/clientlib-site/resources/custom-fonts/abbvie-custom-icons/abbvie-icon.woff2') format('woff2');
+}
+
+/* Heebo and Noto families are available in the clientlib; include if needed */

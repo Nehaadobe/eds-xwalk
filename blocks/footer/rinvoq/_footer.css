@@ -1,0 +1,7 @@
+@import '../footer.css';
+
+/* Brand-specific overrides for footer block */
+
+footer {
+  background-color: #90124a;
+}
