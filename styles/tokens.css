@@ -82,4 +82,12 @@
   --font-uppercase: uppercase;
   --font-lowercase: lowercase;
   --font-normal: normal;
+
+  /* Media Query */
+  --bp-mobile-max: 743px;
+  --bp-tablet-min: 744px;
+  --bp-tablet-max: 1023px;
+  --bp-desktop-min: 1024px;
+  --bp-large-desktop-min: 1440px;
+
 }

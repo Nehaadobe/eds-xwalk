@@ -4,6 +4,6 @@
 /* botox specific style goes here */
 
 body {
-    background-color: var(--purple);
-    color: var(--white);
+    background-color: var(--background-color);
+    color: var(--text-color);
 }

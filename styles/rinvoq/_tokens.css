@@ -11,130 +11,83 @@
  */
 
 :root {
-    --text-global: #25282a;
-    --text-global-rgb: 37, 40, 42;
-    --text-footnote: #7d7f80;
-    --color-white: #fff;
-    --color-white-rgb: 255, 255, 255;
-    --color-black: #000;
-    --color-black-rgb: 0, 0, 0;
-    --color-grey-dark1: #24272a;
-    --color-grey-dark1-rgb: 36, 39, 42;
-    --color-grey-dark2: #666869;
-    --color-grey-dark2-rgb: 102, 104, 105;
-    --color-grey-dark3: #979797;
-    --color-grey-dark4: #46484a;
-    --color-grey-dark5: #7c8081;
-    --color-grey-dark6: #d8d8d8;
-    --color-grey-dark7: #515252;
-    --color-grey-dark8: #071d49;
-    --color-grey-dark9: #767676;
-    --color-grey-light1: #f3f3f3;
-    --color-grey-light1-rgb: 243, 243, 243;
-    --color-grey-light2: #f5f5f5;
-    --color-grey-light3: #f9f9f9;
-    --color-grey-light2-rgb: 245, 245, 245;
-    --color-magenta: #90124a;
-    --color-magenta-rgb: 144, 18, 74;
-    --color-pink: #d7196d;
-    --color-pink2: #d7196e;
-    --color-secondary-pink: #ffa5c4;
-    --color-light-pink: #d7196e;
-    --color-pink-rgb: 215, 25, 109;
-    --color-yellow: #ffd100;
-    --color-yellow-rgb: 255, 209, 0;
-    --color-yellow-bright: #ffd206;
-    --color-yellow-bright-rgb: 255, 210, 6;
-    --color-yellow-25: #fff3bf;
-    --color-yellow-40: #ffed99;
-    --color-transparent: transparent;
-    --font-helvetica-roman: "Helvetica Neue LT W05_55 Roman";
-    --font-helvetica-medium: "Helvetica Neue LT W05_65 Medium";
-    --font-helvetica-bold: "Helvetica Neue LT W05_75 Bold";
-    --font-helvetica-heavy: "Helvetica Neue LT W05_85 Heavy";
-    --font-neue-haas-grotesk: "Neue Haas Grotesk Disp W0595Bl";
-    --font-size-global: 16px;
-    --font-size-05: .5rem;
-    --font-size-05625: .5625rem;
-    --font-size-0625: .625rem;
-    --font-size-0687: .687rem;
-    --font-size-075: .75rem;
-    --font-size-08: .8rem;
-    --font-size-0812: .812rem;
-    --font-size-0875: .875rem;
-    --font-size-09: .9rem;
-    --font-size-0937: .937rem;
-    --font-size-10: 1rem;
-    --font-size-1062: 1.062rem;
-    --font-size-1125: 1.125rem;
-    --font-size-1187: 1.187rem;
-    --font-size-12: 1.2rem;
-    --font-size-125: 1.25rem;
-    --font-size-13: 1.3rem;
-    --font-size-13125: 1.3125rem;
-    --font-size-1375: 1.375rem;
-    --font-size-1438: 1.438rem;
-    --font-size-14: 1.4rem;
-    --font-size-15: 1.5rem;
-    --font-size-1562: 1.562rem;
-    --font-size-16: 1.6rem;
-    --font-size-1625: 1.625rem;
-    --font-size-16875: 1.6875rem;
-    --font-size-175: 1.75rem;
-    --font-size-18: 1.8rem;
-    --font-size-1875: 1.875rem;
-    --font-size-20: 2rem;
-    --font-size-20625: 2.0625rem;
-    --font-size-2125: 2.125rem;
-    --font-size-2188: 2.188rem;
-    --font-size-2250: 2.250rem;
-    --font-size-225: 2.25rem;
-    --font-size-2375: 2.375rem;
-    --font-size-25: 2.5rem;
-    --font-size-26: 2.6rem;
-    --font-size-29: 2.9rem;
-    --font-size-30: 3rem;
-    --font-size-32: 3.2rem;
-    --font-size-35: 3.5rem;
-    --font-line-height-0: 0;
-    --font-line-height-10: .625rem;
-    --font-line-height-12: .75rem;
-    --font-line-height-14: .875rem;
-    --font-line-height-15: .938rem;
-    --font-line-height-16: 1rem;
-    --font-line-height-17: 1.062rem;
-    --font-line-height-18: 1.125rem;
-    --font-line-height-19: 1.187rem;
-    --font-line-height-20: 1.25rem;
-    --font-line-height-21: 1.313rem;
-    --font-line-height-22: 1.375rem;
-    --font-line-height-24: 1.5rem;
-    --font-line-height-25: 1.562rem;
-    --font-line-height-26: 1.625rem;
-    --font-line-height-27: 1.6875rem;
-    --font-line-height-28: 1.75rem;
-    --font-line-height-29: 1.8125rem;
-    --font-line-height-30: 1.875rem;
-    --font-line-height-31: 1.9375rem;
-    --font-line-height-32: 2rem;
-    --font-line-height-33: 2.063rem;
-    --line-height-34: 3.4rem;
-    --font-line-height-35: 2.188rem;
-    --font-line-height-36: 2.25rem;
-    --font-line-height-38: 2.375rem;
-    --font-line-height-40: 2.5rem;
-    --font-line-height-42: 2.6rem;
-    --font-line-height-45: 2.813rem;
-    --font-line-height-46: 2.875rem;
-    --font-line-height-50: 3.125rem;
-    --font-line-height-52: 3.25rem;
-    --font-line-height-54: 3.4rem;
-    --font-uppercase: uppercase;
-    --font-lowercase: lowercase;
-    --font-normal: normal;
-    --font-letter-spacing-1: 1px;
-    --font-letter-spacing-1-5: 1.5px;
-    --font-letter-spacing-2: 2px;
-    --font-letter-spacing-12-5: 2.5px;
-    --content-max-width: 945px;
+  /* Colors */
+  --background-color: #979797;
+  --surface-color: #f1f3ff;
+  --light-color: #f8f8f8;
+  --text-color: #fff; /* primary dark/nav text */
+  --muted-color: #666b7a;
+  --border-color: #b9b4b4;
+
+  /* Brand blues */
+  --primary-color: #0066f5; /* links / primary CTAs */
+  --primary-strong: #479ff8; /* alternate / dark-theme accent */
+  --primary-muted: #a6b5e0;
+
+  /* Alerts */
+  --error-color: #cf451c;
+  --warning-color: #f2dede;
+  --success-color: #2f9ece;
+
+  /* Link colors */
+  --link-color: var(--primary-color);
+  --link-hover-color: var(--text-color);
+
+  /* Fonts */
+  --body-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --heading-font-family: 'F37 Lineca', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+  --icon-font-family: 'abbvie-icon';
+
+  /* Body sizes (match abbvie breakpoints) */
+  --body-font-size-m: 1.8rem;
+  --body-font-size-s: 1.6rem;
+  --body-font-size-xs: 1.4rem;
+
+  /* Heading sizes */
+  --heading-font-size-xxl: 6.4rem;
+  --heading-font-size-xl: 5.6rem;
+  --heading-font-size-l: 4.8rem;
+  --heading-font-size-m: 4rem;
+  --heading-font-size-s: 3.2rem;
+  --heading-font-size-xs: 2.4rem;
+
+  /* nav height (approx) */
+  --nav-height: 72px;
+
+  /* Spacing Tokens */
+  --space-token-xxs: 8px;
+  --space-token-xs: 16px;
+  --space-token-s: 24px;
+  --space-token-m: 32px;
+  --space-token-l: 40px;
+  --space-token-xl: 56px;
+  --space-token-xxl: 80px;
+  --space-token-xxxl: 104px;
+
+  /* Separator Height */
+  --separator-height-1: .1rem;
+  --separator-height-8: .8rem;
+  --separator-height-16: 1.6rem;
+  --separator-height-24: 2.4rem;
+  --separator-height-32: 3.2rem;
+  --separator-height-48: 4.8rem;
+  --separator-height-64: 6.4rem;
+  --separator-height-80: 8rem;
+  --separator-height-96: 9.6rem;
+  --separator-height-112: 11.2rem;
+  --separator-height-128: 12.8rem;
+  --separator-height-144: 14.4rem;
+
+  /* text transform */
+  --font-uppercase: uppercase;
+  --font-lowercase: lowercase;
+  --font-normal: normal;
+
+  /* Media Query */
+  --bp-mobile-max: 743px;
+  --bp-tablet-min: 744px;
+  --bp-tablet-max: 1023px;
+  --bp-desktop-min: 1024px;
+  --bp-large-desktop-min: 1440px;
+
 }
