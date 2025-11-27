@@ -160,7 +160,7 @@ pre {
 pre {
   padding: 16px;
   border-radius: 8px;
-  background-color: var(--light-color);
+  background-color: var(--highlight-background-color);
   overflow-x: auto;
   white-space: pre;
 }
@@ -248,7 +248,7 @@ a.button.secondary,
 button.secondary {
   background-color: unset;
   border: 2px solid currentcolor;
-  color: var(--text-color);
+  color: var(--highlight-background-color);
 }
 
 main img {
@@ -292,7 +292,7 @@ main > .section:first-of-type {
 /* ----------section metadata---------- */
 main .section.light,
 main .section.highlight {
-  background-color: var(--light-color);
+  background-color: var(--highlight-background-color);
   margin: 0;
   padding: 40px 0;
 }
