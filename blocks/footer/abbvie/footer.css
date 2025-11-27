@@ -1,5 +1,5 @@
 footer {
-  background-color: var(--light-color);
+  background-color: var(--footer-background-color);
   font-size: var(--body-font-size-xs);
 }
 
@@ -20,7 +20,3 @@ footer .footer p {
 }
 
 /* Brand-specific overrides for footer block */
-
-footer {
-  background-color: #f1f3ff;
-}
