@@ -11,27 +11,33 @@
  */
 
 :root {
-  /* Colors */
-  --background-color: #fff;
-  --surface-color: #f1f3ff;
-  --light-color: #f8f8f8;
-  --text-color: #071d49; /* primary dark/nav text */
-  --muted-color: #666b7a;
-  --border-color: #b9b4b4;
+/* -----------------------------------------------------------
+   PX → REM Conversion Helper
+   How to use:
+   - Define a base root font-size (default = 10px)
+   - Use `calc(<px> * var(--px-to-rem))` to convert pixels to rem
+   - Example: calc(24 * var(--px-to-rem)) = 2.4rem
+----------------------------------------------------------- */
+  --base-size: 10; /* 1rem = 10px */
+  --px-to-rem: calc(1rem / var(--base-size));
 
-  /* Brand blues */
-  --primary-color: #0066f5; /* links / primary CTAs */
-  --primary-strong: #479ff8; /* alternate / dark-theme accent */
-  --primary-muted: #a6b5e0;
+    /* Colors */
+  --link-color: #035fe6;
+  --link-hover-color: #136ff6;
+  --background-color: #fff;
+  --highlight-background-color: #F1F3FF;
+  --highlight-dark-background-color:#0066F5;
+  --container-border-color: #a6b5e0;
+  --footer-background-color: #fafafa;
+  --footer-border-color: #e1e1e1;
+  --footer-text-color: #071d49;
+  --text-color: #071d49; /* primary dark/nav text */
+  --strong-heading: #0066f5;
 
   /* Alerts */
   --error-color: #cf451c;
   --warning-color: #f2dede;
   --success-color: #2f9ece;
-
-  /* Link colors */
-  --link-color: var(--primary-color);
-  --link-hover-color: var(--text-color);
 
   /* Fonts */
   --body-font-family: 'Roboto', 'Helvetica', 'Arial', sans-serif;
@@ -52,17 +58,17 @@
   --heading-font-size-xs: 2.4rem;
 
   /* nav height (approx) */
-  --nav-height: 72px;
+  --nav-height: calc(72 * var(--px-to-rem));
 
   /* Spacing Tokens */
-  --space-token-xxs: 8px;
-  --space-token-xs: 16px;
-  --space-token-s: 24px;
-  --space-token-m: 32px;
-  --space-token-l: 40px;
-  --space-token-xl: 56px;
-  --space-token-xxl: 80px;
-  --space-token-xxxl: 104px;
+  --space-token-xxs: calc(8 * var(--px-to-rem));
+  --space-token-xs: calc(16 * var(--px-to-rem));
+  --space-token-s: calc(24 * var(--px-to-rem));
+  --space-token-m: calc(32 * var(--px-to-rem));
+  --space-token-l: calc(40 * var(--px-to-rem));
+  --space-token-xl: calc(56 * var(--px-to-rem));
+  --space-token-xxl: calc(80 * var(--px-to-rem));
+  --space-token-xxxl: calc(104 * var(--px-to-rem));
 
   /* Separator Height */
   --separator-height-1: .1rem;
@@ -84,10 +90,10 @@
   --font-normal: normal;
 
   /* Media Query */
-  --bp-mobile-max: 743px;
-  --bp-tablet-min: 744px;
-  --bp-tablet-max: 1023px;
-  --bp-desktop-min: 1024px;
-  --bp-large-desktop-min: 1440px;
+  --bp-mobile-max: 46.4375rem;
+  --bp-tablet-min: 46.5rem;
+  --bp-tablet-max: 63.9375rem;
+  --bp-desktop-min: 64rem;
+  --bp-large-desktop-min: 90rem;
 
 }
